@@ -1,0 +1,459 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: aquamarine;
+    min-height: 10vh;
+}
+.logo{
+    width: 10%;
+    height: 100%;
+}
+.navHeader{
+    width: 90%;
+    text-align: end;
+    font-weight: 700;
+}
+.navLinkHeader{
+    text-decoration: none;
+    color: black;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+
+
+
+section.slogan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://cap.img.pmdstatic.net/fit/https.3A.2F.2Fi.2Epmdstatic.2Enet.2Fcap.2F2021.2F03.2F31.2F1ba64670-0ec3-4156-8b0b-1f9e276bf638.2Ejpeg/1200x630/background-color/ffffff/quality/70/cr/wqkgUGl4YWJheSAvIENBUElUQUw%3D/spacex-comment-des-chats-pourraient-devenir-le-cauchemar-de-ses-paraboles-starlink-1424680.jpg);
+    background-size: 100%;
+    min-height: 90vh;
+}
+h1{
+    color: aquamarine;
+    font-size: 275%;
+}
+
+div.introPart{
+    display: flex;
+    min-height: 90vh;
+    background-color: rgba(245, 245, 245, 0.271);
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+.introTitle{
+    color: aquamarine;
+    font-size: 200%;
+    font-weight: 700;
+}
+.introText{
+    text-align: center;
+    font-size: 125%;
+    width: 50%;
+    color: black;
+}
+.distributeurDiv{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.distributeur{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+div.videoPart{
+    display: flex;
+    min-height: 90vh;
+    background-color: black;
+}
+.videoTuto{
+    border: 0vh;
+    width: 50%;
+    margin: 5%;
+}
+
+
+.videoPartText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.videoTitle{
+    color: aquamarine;
+    font-size: 200%;
+}
+.explication{
+    text-align: center;
+    font-size: 125%;
+    color: white;
+    width: 50%;
+}
+
+
+
+
+div.imagesPart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 90vh;
+    color: aquamarine;
+    font-size: 115%;
+}
+.easy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imageEasy{
+    width: 30%;
+}
+
+.time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imageTime{
+    width: 30%;
+}
+
+.place{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagePlace{
+    width: 30%;
+}
+
+
+
+
+div.buttonPart{
+    display: flex;
+    align-items: center;
+    min-height: 15vh;
+    font-weight: 700;
+    background-color: rgba(245, 245, 245, 0.271);
+}
+.buttonText{
+    width: 50%;
+    text-align: center;
+    font-size: 100%;
+}
+
+
+.navButton{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+       
+}
+.button{
+    background-color: aquamarine;
+    color: black;
+    text-decoration: none;
+    width: 17.5%;
+    line-height: 250%;
+    font-size: 100%;
+    text-align: center;
+}
+
+
+
+
+div.footerMain{
+    color: aquamarine;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+    min-height: 15vh;
+    margin-bottom: 0px;
+}
+
+
+.socials{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navSocials{
+    display: flex;
+    justify-content: space-between;
+}
+.navLinkSocials{
+    text-decoration: none;
+    color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.ulFooter{
+    list-style-type: none;
+}
+.phone{
+    color: white;
+}
+.mail{
+    color: white;
+}
+
+
+.navFooter{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.navLinkFooter{
+    text-decoration: none;
+    color: white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+
+
+div.mentions{
+    display: flex;
+    justify-content: center;
+    color: black;
+    min-height: 5vh;
+}
+.mentionLink{
+    text-decoration: none;
+    color: aquamarine;
+}
+
+
+
+
+@media screen and (max-width:1024px){
+    
+    header{
+        font-size: 66%;
+        min-height: 6.6vh;
+    }
+
+
+    section.slogan{
+        min-height: 70vh;
+        background-size: cover;
+    }
+    h1{
+        font-size: 165%;
+    }
+
+
+    div.introPart{
+        min-height: 60vh;
+    }
+    .introTitle{
+        font-size: 115%;
+    }
+    .introText{
+        font-size: 80%;
+    }
+    .distributeur{
+        width: 150px;
+        height: 150px;
+    }
+    
+
+    div.videoPart{
+        min-height: 60vh;
+    }
+    .videoTuto{
+        margin: 3.3%;
+    }
+    .videoTitle{
+        font-size: 115%;
+    }
+    .explication{
+        font-size: 80%;
+    }
+
+
+
+
+    div.imagesPart{
+        font-size: 77%;
+        min-height: 60vh;
+    }
+
+
+
+
+    div.buttonPart{
+        min-height: 10vh;
+    }
+    .buttonText{
+        font-size: 66%;
+    }
+    .button{
+        font-size: 66%;
+    }
+
+
+
+
+    div.footerMain{
+        font-size: 66%;
+        min-height: 10vh;
+    }.socialLogo{
+        width: 75%;
+    }
+    div.mentions{
+        font-size: 66%;
+        min-height: 3.3vh;
+    }
+}
+
+
+
+
+@media all and (max-device-width:600px){
+    header{
+        font-size: 33%;
+        min-height: 3.3vh;
+    }
+
+
+    section.slogan{
+        min-height: 30vh;
+    }
+    h1{
+        font-size: 85%;
+    }
+
+
+    div.introPart{
+        display: flex;
+        flex-direction: column;
+        min-height: 30vh;
+    }
+    .intro{
+        width: 100%;
+    }
+    .introTitle{
+        font-size: 67%;
+    }
+    .introText{
+        font-size: 50%;
+    }
+    .distributeurDiv{
+        width: 100%;
+    }
+    .distributeur{
+        width: 100px;
+        height: 100px;
+    }
+    
+
+    div.videoPart{
+        min-height: 30vh;
+        flex-direction: column;
+    }
+    .videoTuto{
+        align-self: center;
+        margin: 1.7%;
+        width: 90%;
+    }
+    
+    .videoPartText{
+        width: 100%;
+    }
+    .videoTitle{
+        font-size: 67%;
+        text-align: center;
+    }
+    .explication{
+        font-size: 50%;
+    }
+
+
+
+
+    div.imagesPart{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 50%;
+        min-height: 30vh;
+    }
+    .imageEasy{
+        width: 15%;
+    }
+    .imageTime{
+        width: 15%;
+    }
+    .imagePlace{
+        width: 15%;
+    }
+
+
+
+
+    div.buttonPart{
+        min-height: 5vh;
+    }
+    .buttonText{
+        font-size: 33%;
+    }
+    .button{
+        font-size: 33%;
+        width: 25%;
+    }
+
+
+
+
+    div.footerMain{
+        font-size: 33%;
+        min-height: 5vh;
+    }
+    .socialLogo{
+        width: 50%;
+    }
+    div.mentions{
+        font-size: 33%;
+        min-height: 1.7vh;
+    }
+}
+/* @media screen and(min-width:200px) and (max-width:780px){
+}  */
+/*point de rupture
+Desktop : au delà de 1024 pixels
+Tablette : entre 600 et 1024 pixels (en mode portrait)
+Mobile : entre 320 et 600 pixels (en mode portrait)
+cela sont des moyennes de tailles d ecran*/
+
+
